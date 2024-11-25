@@ -62,7 +62,7 @@ generate: update-codegen
 
 .PHONY: update-codegen
 update-codegen:
-	hack/update-codegen.sh
+	bash "$(TOP)/hack/update-codegen.sh"
 
 .PHONY: build-install-yaml
 build-install-yaml:
